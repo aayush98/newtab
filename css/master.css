@@ -1,0 +1,44 @@
+
+body {
+  background-color: #1d1d1d;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  width: 75%;
+  padding-top: 160px;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../fonts/Inconsolata-Regular.ttf");
+}
+
+header {
+  font-family: 'Inconsolata';
+  align-items: center;
+  font-size: 25px;
+  color: #34B454;
+}
+
+.top-level > li{
+  font-family: 'Inconsolata';
+  font-size: 25px;
+  color: #34B454;
+}
+
+.sub-level > li {
+  font-family: 'Inconsolata';
+  font-size: 23px;
+  color: #00aa82;
+  display: inline-block;
+}
+
+.sub-level li::before{
+  content: "+";
+  margin-left: 5px;
+}
+
+a{
+  color: inherit;
+}
