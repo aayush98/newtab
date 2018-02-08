@@ -21,6 +21,7 @@ header {
   align-items: center;
   font-size: 25px;
   color: #34B454;
+  padding-left: 35px;
 }
 
 .top-level > li{
@@ -28,7 +29,7 @@ header {
   font-size: 25px;
   color: #34B454;
   border-bottom: 1px solid;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .sub-level > li {
@@ -36,6 +37,7 @@ header {
   font-size: 23px;
   color: #00aa82;
   display: inline-block;
+  margin-top: 5px;
 }
 
 .sub-level li::before{
