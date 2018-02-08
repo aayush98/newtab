@@ -7,6 +7,10 @@ body {
   padding-top: 160px;
 }
 
+ul{
+  list-style-type: none;
+}
+
 @font-face {
   font-family: 'Inconsolata';
   src: url("../fonts/Inconsolata-Regular.ttf");
@@ -23,6 +27,8 @@ header {
   font-family: 'Inconsolata';
   font-size: 25px;
   color: #34B454;
+  border-bottom: 1px solid;
+  margin-top: 15px;
 }
 
 .sub-level > li {
