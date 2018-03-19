@@ -5,9 +5,9 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="css/master.css">
     <script src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="js/time.js"></script>
+    <script src="js/base.js"></script>
   </head>
-  <body onload="updateClock();">
+  <body onload="updateClock();initialize();">
     <header>
       <div class="clock"></div>
       <div class="greeting">Welcome, Aayush</div>
@@ -15,16 +15,16 @@
 
     <div class="Websites">
       <ul class="top-level">
-        <li>General</li>
-        <ul class="sub-level">
+        <li class="General">General</li>
+        <ul class="sub-level General">
             <li> <a href="https://inbox.google.com/u/0/">Gmail</a> </li>
             <li> <a href="https://www.facebook.com/">Facebook</a> </li>
             <li> <a href="https://calendar.google.com">Calendar</a> </li>
             <li> <a href="https://drive.google.com/drive/u/0/my-drive">Drive</a> </li>
         </ul>
 
-        <li>Classes</li>
-        <ul class="sub-level">
+        <li class="Classes">Classes</li>
+        <ul class="sub-level Classes">
             <li> <a href="https://courses.engr.illinois.edu/ece391/sp2018/">ECE391</a> </li>
             <li> <a href="https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule">ECE408</a> </li>
             <li> <a href="https://www.webgpu.net/">WebGPU</a> </li>
@@ -34,16 +34,16 @@
             <li> <a href="https://gitlab.engr.illinois.edu/">GitLab</a> </li>
         </ul>
 
-        <li>Reddit</li>
-        <ul class="sub-level">
+        <li class="Reddit">Reddit</li>
+        <ul class="sub-level Reddit">
             <li> <a href="https://www.reddit.com/r/unixporn/">r/unixporn</a> </li>
             <li> <a href="https://www.reddit.com/r/Warframe/">r/Warframe</a> </li>
             <li> <a href="https://www.reddit.com/r/startpages/">r/startpages</a> </li>
             <li> <a href="https://www.reddit.com/r/FirefoxCSS/">r/FirefoxCSS</a> </li>
         </ul>
 
-        <li>Entertainment</li>
-        <ul class="sub-level">
+        <li class="Entertainment">Entertainment</li>
+        <ul class="sub-level Entertainment">
             <li> <a href="https://www.youtube.com/">Youtube</a> </li>
             <li> <a href="https://www.netflix.com/">Netflix</a> </li>
             <li> <a href="https://www.hulu.com/">Hulu</a> </li>
@@ -51,8 +51,8 @@
 	        <li> <a href="https://www.amazon.com/Amazon-Video/b?node=2858778011">Amazon Video</a> </li>
 	</ul>
 
-        <li>Configuration</li>
-        <ul class="sub-level">
+        <li class="Configuration">Configuration</li>
+        <ul class="sub-level Configuration">
             <li> <a href="https://fontawesome.com/cheatsheet">Font Awesome</a> </li>
             <li> <a href="https://manjaro.org/">Manjaro</a> </li>
             <li> <a href="https://i3wm.org/docs/userguide.html">i3 Docs</a> </li>
