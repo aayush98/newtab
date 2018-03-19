@@ -21,10 +21,10 @@ function updateClock (){
 $(document).ready(function()
 {
    setInterval('updateClock()', 1000);
-   $("body").mouseenter(function() {
-       $('.clock').css('visibility','visible');
-   })
-   .mouseleave(function() {
-       $('.clock').css('visibility','hidden');
-   });
+   // $("body").mouseenter(function() {
+   //     $('.clock').css('visibility','visible');
+   // })
+   // .mouseleave(function() {
+   //     $('.clock').css('visibility','hidden');
+   // });
 });
