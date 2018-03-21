@@ -4,7 +4,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 625px;
-  padding-top: 160px;
+  padding-top: 120px;
 }
 
 ul{
@@ -15,7 +15,11 @@ ul{
   font-family: 'Inconsolata';
   src: url("../fonts/Inconsolata-Regular.ttf");
 }
+@font-face {
+    font-family: 'Quinze';
+    src: url("../fonts/QuinzeNarrow.ttf");
 
+}
 .greeting, .clock{
   font-family: 'Inconsolata';
   align-items: center;
@@ -27,7 +31,10 @@ ul{
 }
 
 .clock{
-    font-size: 100px;
+    font-family: 'Quinze';
+    font-weight: normal;
+    font-size: 150px;
+    height: 175px;
 }
 
 .top-level > li{

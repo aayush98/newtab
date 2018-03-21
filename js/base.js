@@ -27,14 +27,14 @@ $(document).ready(function()
    $(".General").mouseenter(function() {
        $(".sub-level.General").show();
    })
-   $(".sub-level.General").mouseleave(function() {
+   $(".General").mouseleave(function() {
        $(".sub-level.General").hide();
    });
 
    $(".Classes").mouseenter(function() {
        $(".sub-level.Classes").show();
    })
-   $(".sub-level.Classes").mouseleave(function() {
+   $(".Classes").mouseleave(function() {
        $(".sub-level.Classes").hide();
    });
 
@@ -42,21 +42,21 @@ $(document).ready(function()
    $(".Reddit").mouseenter(function() {
        $(".sub-level.Reddit").show();
    })
-   $(".sub-level.Reddit").mouseleave(function() {
+   $(".Reddit").mouseleave(function() {
        $(".sub-level.Reddit").hide();
    });
 
    $(".Entertainment").mouseenter(function() {
        $(".sub-level.Entertainment").show();
    })
-   $(".sub-level.Entertainment").mouseleave(function() {
+   $(".Entertainment").mouseleave(function() {
        $(".sub-level.Entertainment").hide();
    });
 
    $(".Configuration").mouseenter(function() {
        $(".sub-level.Configuration").show();
    })
-   $(".sub-level.Configuration").mouseleave(function() {
+   $(".Configuration").mouseleave(function() {
        $(".sub-level.Configuration").hide();
    });
 });
