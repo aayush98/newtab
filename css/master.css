@@ -18,10 +18,13 @@ ul{
 @font-face {
     font-family: 'Quinze';
     src: url("../fonts/QuinzeNarrow.ttf");
-
+}
+@font-face {
+    font-family: 'Fantasque';
+    src: url("../fonts/FantasqueSansMono-Regular.ttf");
 }
 .greeting, .clock{
-  font-family: 'Inconsolata';
+  font-family: 'Fantasque';
   align-items: center;
   font-size: 50px;
   color: #34B454;
@@ -38,7 +41,7 @@ ul{
 }
 
 .top-level > li{
-  font-family: 'Inconsolata';
+  font-family: 'Fantasque';
   font-size: 25px;
   color: #34B454;
   border-bottom: 1px solid;
@@ -46,7 +49,7 @@ ul{
 }
 
 .sub-level > li {
-  font-family: 'Inconsolata';
+  font-family: 'Fantasque';
   font-size: 23px;
   color: #00aa82;
   display: inline-block;
