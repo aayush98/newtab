@@ -45,7 +45,8 @@ ul{
   font-size: 25px;
   color: #34B454;
   border-bottom: 1px solid;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  padding-top: 10px;
 }
 
 .sub-level > li {
