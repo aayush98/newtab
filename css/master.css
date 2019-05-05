@@ -1,10 +1,11 @@
 
 body {
   background-color: #1d1d1d;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 10%;
   display: block;
 }
@@ -56,30 +57,74 @@ ul{
     height: 125px;
 }
 
-.top-level > li{
-  font-family: 'Fantasque';
-  font-size: 25px;
-  color: #34B454;
-  border-bottom: 1px solid;
-  text-align: left;
-  display: inherit;
-  /* margin-top: 10px; */
-  padding-top: 10px;
+.Websites {
+    /* align-content: center; */
 }
+
+.dropbtn {
+  background-color: #22bb66;
+  color: #1d1d1d;
+  margin: 15px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  text-align: left;
+  position: absolute;
+  /* left: 0; */
+  background-color: #1d1d1d;
+  width: 250px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: #c4c5c6;
+  border: 1px solid;
+  border-color: #1d1d1d;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1d1d1d;
+    border: 1px solid;
+    border-color: #c4c5c6;
+    border-radius: 4px;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn { background-color: #c4c5c6; }
+
+.dropbtn.General { background-color: #aa2244; }
+.dropbtn.Classes { background-color: #22bb66; }
+.dropbtn.Reddit { background-color: #2fb7bb; }
+.dropbtn.Entertainment { background-color: #4f8fcf; }
+.dropbtn.Configuration { background-color: #aa6abb; }
 
 .sub-level > li {
   font-family: 'Fantasque';
   font-size: 23px;
   color: #00aa82;
+  text-align: center;
   display: inline-block;
   margin-top: 5px;
+  border-radius: 5px;
+  border: 1px;
 }
 
 .sub-level li::before{
   content: "+";
   margin-left: 5px;
-}
-
-a{
-  color: inherit;
 }

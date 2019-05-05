@@ -14,56 +14,73 @@
       <div class="clock"></div>
       <div class="greeting">Welcome, Aayush</div>
     </header>
-    <form method="get" autocomplete="off" action="http://www.google.com/search">
+    <form method="get" autocomplete="on" action="http://www.google.com/search">
         <input id="search_area" name="q" size="31" maxlength="255" value="" placeholder="What do you want" type="text">
     </form>
     <div class="Websites">
-      <ul class="top-level">
-        <li class="General">General</li>
-        <ul class="sub-level General">
-            <li> <a href="https://inbox.google.com/u/0/">Gmail</a> </li>
-            <li> <a href="https://www.facebook.com/">Facebook</a> </li>
-            <li> <a href="https://calendar.google.com">Calendar</a> </li>
-            <li> <a href="https://drive.google.com/drive/u/0/my-drive">Drive</a> </li>
-        </ul>
+        <div class="dropdown General">
+            <button class="dropbtn General"> General </button>
+            <div class="dropdown-content General">
+                <ul class="sub-level General">
+                    <li> <a href="https://inbox.google.com/u/0/">Gmail</a> </li>
+                    <li> <a href="https://www.facebook.com/">Facebook</a> </li>
+                    <li> <a href="https://calendar.google.com">Calendar</a> </li>
+                    <li> <a href="https://drive.google.com/drive/u/0/my-drive">Drive</a> </li>
+                </ul>
+            </div>
+        </div>
 
-        <li class="Classes">Classes</li>
-        <ul class="sub-level Classes">
-            <li> <a href="https://courses.engr.illinois.edu/cs431/sp2019/">CS 431</a> </li>
-            <li> <a href="https://courses.engr.illinois.edu/ece498icc/sp2019/">ECE 498 IoT</a> </li>
-            <li> <a href="https://courses.engr.illinois.edu/ece385/sp2019/">ECE 385</a> </li>
-            <li> <a href="https://vc.cs.illinois.edu/">vSphere</a> </li>
-            <li> <a href="https://compass2g.illinois.edu/">Compass</a> </li>
-            <li> <a href="https://piazza.com/class">Piazza</a> </li>
-            <li> <a href="https://learn.illinois.edu/">Learn@Illinois</a> </li>
-            <li> <a href="https://gitlab.engr.illinois.edu/">GitLab</a> </li>
-        </ul>
+        <div class="dropdown Classes">
+            <button class="dropbtn Classes"> Classes </button>
+            <div class="dropdown-content Classes">
+                <ul class="sub-level Classes">
+                    <li> <a href="https://courses.engr.illinois.edu/cs431/sp2019/">CS 431</a> </li>
+                    <li> <a href="https://courses.engr.illinois.edu/ece498icc/sp2019/">ECE 498 IoT</a> </li>
+                    <li> <a href="https://courses.engr.illinois.edu/ece385/sp2019/">ECE 385</a> </li>
+                    <li> <a href="https://vc.cs.illinois.edu/">vSphere</a> </li>
+                    <li> <a href="https://compass2g.illinois.edu/">Compass</a> </li>
+                    <li> <a href="https://piazza.com/class">Piazza</a> </li>
+                    <li> <a href="https://learn.illinois.edu/">Learn@Illinois</a> </li>
+                    <li> <a href="https://gitlab.engr.illinois.edu/">GitLab</a> </li>
+                </ul>
+            </div>
+        </div>
 
-        <li class="Reddit">Reddit</li>
-        <ul class="sub-level Reddit">
-            <li> <a href="https://www.reddit.com/r/unixporn/">r/unixporn</a> </li>
-            <li> <a href="https://www.reddit.com/r/Warframe/">r/Warframe</a> </li>
-            <li> <a href="https://www.reddit.com/r/startpages/">r/startpages</a> </li>
-            <li> <a href="https://www.reddit.com/r/FirefoxCSS/">r/FirefoxCSS</a> </li>
-        </ul>
+        <div class="dropdown Reddit">
+            <button class="dropbtn Reddit"> Reddit </button>
+            <div class="dropdown-content Reddit">
+                <ul class="sub-level Reddit">
+                    <li> <a href="https://www.reddit.com/r/unixporn/">r/unixporn</a> </li>
+                    <li> <a href="https://www.reddit.com/r/Warframe/">r/Warframe</a> </li>
+                    <li> <a href="https://www.reddit.com/r/startpages/">r/startpages</a> </li>
+                    <li> <a href="https://www.reddit.com/r/FirefoxCSS/">r/FirefoxCSS</a> </li>
+                </ul>
+            </div>
+        </div>
 
-        <li class="Entertainment">Entertainment</li>
-        <ul class="sub-level Entertainment">
-            <li> <a href="https://www.youtube.com/">Youtube</a> </li>
-            <li> <a href="https://www.netflix.com/">Netflix</a> </li>
-            <li> <a href="https://www.hulu.com/">Hulu</a> </li>
-            <li> <a href="http://www.dorkly.com/ ">Dorkly</a> </li>
-	        <li> <a href="https://www.amazon.com/Amazon-Video/b?node=2858778011">Amazon Video</a> </li>
-	</ul>
+        <div class="dropdown Entertainment">
+            <button class="dropbtn Entertainment"> Entertainment </button>
+            <div class="dropdown-content Entertainment">
+                <ul class="sub-level Entertainment">
+                    <li> <a href="https://www.youtube.com/">Youtube</a> </li>
+                    <li> <a href="https://www.netflix.com/">Netflix</a> </li>
+                    <li> <a href="https://www.hulu.com/">Hulu</a> </li>
+                    <li> <a href="http://www.dorkly.com/ ">Dorkly</a> </li>
+                    <li> <a href="https://www.amazon.com/Amazon-Video/b?node=2858778011">Amazon Video</a> </li>
+                </ul>
+            </div>
+        </div>
 
-        <li class="Configuration">Configuration</li>
-        <ul class="sub-level Configuration">
-            <li> <a href="https://fontawesome.com/cheatsheet">Font Awesome</a> </li>
-            <li> <a href="https://manjaro.org/">Manjaro</a> </li>
-            <li> <a href="https://i3wm.org/docs/userguide.html">i3 Docs</a> </li>
-        </ul>
-      </ul>
+        <div class="dropdown Configuration">
+            <button class="dropbtn Configuration"> Configuration </button>
+            <div class="dropdown-content Configuration">
+                <ul class="sub-level Configuration">
+                    <li> <a href="https://fontawesome.com/cheatsheet">Font Awesome</a> </li>
+                    <li> <a href="https://manjaro.org/">Manjaro</a> </li>
+                    <li> <a href="https://i3wm.org/docs/userguide.html">i3 Docs</a> </li>
+                </ul>
+            </div>
+        </div>
     </div>
-
   </body>
 </html>

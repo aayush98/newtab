@@ -18,45 +18,6 @@ function updateClock (){
 
  }
 function initialize() {
-    $(".sub-level").hide();
+    // $(".sub-level").hide();
     setInterval('updateClock()', 1000);
 }
-$(document).ready(function()
-{
-
-   $(".General").mouseenter(function() {
-       $(".sub-level.General").show();
-   })
-   $(".General").mouseleave(function() {
-       $(".sub-level.General").hide();
-   });
-
-   $(".Classes").mouseenter(function() {
-       $(".sub-level.Classes").show();
-   })
-   $(".Classes").mouseleave(function() {
-       $(".sub-level.Classes").hide();
-   });
-
-
-   $(".Reddit").mouseenter(function() {
-       $(".sub-level.Reddit").show();
-   })
-   $(".Reddit").mouseleave(function() {
-       $(".sub-level.Reddit").hide();
-   });
-
-   $(".Entertainment").mouseenter(function() {
-       $(".sub-level.Entertainment").show();
-   })
-   $(".Entertainment").mouseleave(function() {
-       $(".sub-level.Entertainment").hide();
-   });
-
-   $(".Configuration").mouseenter(function() {
-       $(".sub-level.Configuration").show();
-   })
-   $(".Configuration").mouseleave(function() {
-       $(".sub-level.Configuration").hide();
-   });
-});
