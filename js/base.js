@@ -19,5 +19,6 @@ function updateClock (){
  }
 function initialize() {
     // $(".sub-level").hide();
+    // showQuote();
     setInterval('updateClock()', 1000);
 }
