@@ -14,11 +14,29 @@ function updateClock (){
   	var currentTimeString = currentHours + ":" + currentMinutes;
 
 
+
    	$(".clock").html(currentTimeString);
 
- }
+}
+
+function displayTimeOfDay() {
+    let time = new Date().getHours();
+    if (time >= 0 && time <= 3) return 'night';
+    if (time >= 4 && time <= 11) return 'morning';
+    if (time >= 12 && time <= 16) return 'afternoon';
+    if (time >= 17 && time <= 24) return 'evening';
+    console.log(time);
+}
+
+function setGreeting() {
+    const greeting = document.getElementById('greeting');
+    greeting.textContent = `Good ${displayTimeOfDay()}, Sir!`;
+}
+
+
 function initialize() {
     // $(".sub-level").hide();
     // showQuote();
+    setGreeting();
     setInterval('updateClock()', 1000);
 }

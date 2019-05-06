@@ -68,7 +68,7 @@ ul{
     font-family: 'Fantasque';
     src: url("../fonts/FantasqueSansMono-Regular.ttf");
 }
-.greeting, .clock{
+#greeting, .clock{
   font-family: 'Raleway';
   font-size: 4.2em;
   color: #1e4780;
