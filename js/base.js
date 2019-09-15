@@ -30,7 +30,7 @@ function displayTimeOfDay() {
 
 function setGreeting() {
     const greeting = document.getElementById('greeting');
-    greeting.textContent = `Good ${displayTimeOfDay()}, Idiot!`;
+    greeting.textContent = `Good ${displayTimeOfDay()}, Friend!`;
 }
 
 
