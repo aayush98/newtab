@@ -1,4 +1,3 @@
-
 body {
   background-color: #1d1d1d;
   font-size: 12px;
@@ -27,6 +26,7 @@ body {
 }
 
 .block{
+    opacity:50%;
     height: 300px;
 }
 
@@ -105,6 +105,15 @@ ul{
   display: inline-block;
 }
 
+a {
+  color: #1d1d1d;
+  border: 1px solid;
+  border-color: #1d1d1d00;
+  padding: 2px 3px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .dropdown-content {
   display: none;
   text-align: left;
@@ -154,6 +163,8 @@ ul{
   border-radius: 5px;
   border: 1px;
 }
+
+/* img */
 
 .sub-level li::before{
   content: "+";
