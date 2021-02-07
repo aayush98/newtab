@@ -39,4 +39,8 @@ function initialize() {
     // showQuote();
     setGreeting();
     setInterval('updateClock()', 1000);
+    var path = 'images/',
+    imgs = ['burst_atom.png', 'isotry.png', 'polymagnet.png', 'square.png', 'strider.png'],
+    i = Math.floor(Math.random()*imgs.length);
+    $('.block').append("<img src='"+path+imgs[i]+"'>").hide().fadeIn(2000);
 }

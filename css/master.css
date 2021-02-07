@@ -26,7 +26,6 @@ body {
 }
 
 .block{
-    opacity:50%;
     height: 300px;
 }
 
@@ -163,8 +162,6 @@ a {
   border-radius: 5px;
   border: 1px;
 }
-
-/* img */
 
 .sub-level li::before{
   content: "+";
